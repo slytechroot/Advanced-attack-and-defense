@@ -1,0 +1,18 @@
+-------> Windows privilege escalation <------
+
+Privilege Escalation Vectors 
+
+Following information are considered as critical Information of Windows System: 
+•	• The version of the operating system 
+•	• Any Vulnerable package installed or running 
+•	• Files and Folders with Full Control or Modify Access 
+•	• Mapped Drives 
+•	• Potentially Interesting Files 
+•	• Unquoted Service Paths 
+•	• Network Information (interfaces, arp, netstat) 
+•	• Firewall Status and Rules 
+•	• Running Processes 
+•	• AlwaysInstallElevated Registry Key Check 
+•	• Stored Credentials 
+•	• DLL Hijacking 
+•	• Scheduled Tasks 
